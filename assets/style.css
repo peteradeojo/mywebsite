@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+body{
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+	padding: 16px 12px;
+	width: 90%;
+	margin: auto;
+}
+
+/*Header*/
+header{
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+}
+#heading-section{
+	background-color: #1b1145;
+}
+header .pageHeading{
+	align-self: center;
+	font-family: Comfortaa, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+}
+.pageHeading h1{
+	text-transform: uppercase;
+	line-height: 4rem;
+}
+
+/*Navigation*/
+.navbar{
+	padding: 4px 8px;
+}
+.navbar-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav-link{
+	padding: 8px 12px;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	transition: all .4s;
+}
+.nav-link:hover{
+	background-color: rgba(0, 0, 0, .6);
+	color: #ffffff;
+}
+
+#showcase .showcase{
+	background: rgb(208, 208, 208) url('./images/background.jpg') no-repeat;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.caption{
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	justify-self: center;
+}
+.caption p{
+	font-size: 2em;
+	padding: 4px 0px;
+	font-family: Comfortaa, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+.caption p:nth-child(2){
+	color: #fff;
+	font-size: 2.4em;
+}
+.caption p:nth-child(3){
+	color: red;
+	line-height: 20%;
+	font-size: 4em;
+	font-family: "Arial Black", Arial, sans-serif;
+}
