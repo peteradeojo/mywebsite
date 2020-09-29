@@ -19,7 +19,7 @@
 <body>
 	<main>
 		<section id="heading-section">
-			<header class="container">
+			<header class="container row-wrap">
 				<div class="pageHeading" id="pageTitle">
 					<h1>Ade-Ojo Peter</h1>
 				</div>
@@ -60,18 +60,16 @@
 						autem itaque iusto.
 
 					</p>
-					<div class="about-img justify-end">
-						<img src="./assets/images/IMG_20200503_092837_596.jpg" alt="C.E.O">
-					</div>
+					<div class="about-img default-shadow align-flex-end"></div>
 				</div>
 			</div>
 		</section>
 
 		<section id="articles-list">
-			<div class="container mt-5">
+			<div class="container mt-5 mb-5">
 				<h2>Check Out Some of My Articles</h2>
-				<div class="article-view-pane">
-					<div class="article-preview">
+				<div class="mt-5 row">
+					<div class="article-preview column">
 						<div class="article-img">
 							<img src="./assets/images/background.jpg" alt="">
 						</div>
@@ -96,10 +94,10 @@
 
 		<section id="personalities-section">
 			<div class="container">
-				<h2 class="text-center">Personalities</h2>
+				<h2 class="text-center text-light underline">Personalities</h2>
 			</div>
 			<div id="personalities">
-				<div class="pane">
+				<div class="row row-wrap">
 
 					<div class="person">
 						<div class="person-img"><img src="./assets/images/avatar3.png" alt="Personality 1"></div>
@@ -110,7 +108,7 @@
 					</div>
 
 					<div class="person">
-						<div class="person-img"><img src="./assets/images/avatar1.png" alt="Personality 2"></div>
+						<div class="person-img"><img src="./assets/images/equal-icon.jpg" alt="Personality 2"></div>
 						<div class="person-info text-center">
 							<p>Ade-Ojo Boluwatife P.</p>
 							<p>C.E.O</p>
@@ -146,11 +144,34 @@
 
 		<section id="footer-section">
 
-			<div class="row flex-center-all">
-				<div class="container contact">
+			<div class="row pt-5">
+				<div class="container more-info-pane column">
+					<div class="info-box">
+						<h2>Some of My Work</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
+							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
+							voluptatum ex corporis.</p>
+					</div>
+
+					<div class="info-box">
+						<h2>Some of My Work</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
+							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
+							voluptatum ex corporis.</p>
+					</div>
+
+					<div class="info-box">
+						<h2>Some of My Work</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
+							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
+							voluptatum ex corporis.</p>
+					</div>
+				</div>
+
+				<div class="contact container">
 					<h2>Contact Me</h2>
 					<div class="contact-form-pane">
-						<form action="./private/contact.php" id="contact-form" method="POST">
+						<form action="./private/contact.php" id="contact-form" method="POST" class="mt-5">
 							<div class="form-group">
 								<label for="email">E-mail Address</label>
 								<input type="text" name="email" id="email" required placeholder="youremail@example.com" />
@@ -164,32 +185,20 @@
 							<button type="submit">Submit</button>
 						</form>
 					</div>
-				</div>
 
-				<div class="more-info-pane column">
-					<div class="info-box">
-						<h2>Some of My Work</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
-							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
-							voluptatum ex corporis.</p>
-					</div>
-
-					<div class="info-box">
-						<h2>Some of My Work</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
-							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
-							voluptatum ex corporis.</p>
-					</div>
-
-					<div class="info-box">
-						<h2>Some of My Work</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut rem odio repellendus quia corrupti
-							porro, quasi et, reprehenderit pariatur aut explicabo assumenda molestiae suscipit earum! Distinctio
-							voluptatum ex corporis.</p>
+					<div class="socials">
+						<a href="https://twitter.com/boluwatife_xx" title="Twitter" target="_blank" class="social-icon"><img src="./assets/images/twitter.png" alt="Twitter" srcset=""></a>
+						<a href="https://api.whatsapp.com/send?phone=2348103490675" title="WhatsApp" target="_blank" class="social-icon"><img src="./assets/images/whatsapp.png" alt="WhatsApp" srcset=""></a>
+						<a href="https://github.com/peteradeojo" title="Github" target="_blank" class="social-icon"><img src="./assets/images/github-real.png" alt="WhatsApp" srcset=""></a>
 					</div>
 				</div>
 			</div>
 
+			<footer>
+				<div class="container">
+					<p class="copyright">Copyright Ade-Ojo Boluwatife&copy; 2020</p>
+				</div>
+			</footer>
 		</section>
 	</main>
 	<script src="./assets/main.js"></script>
