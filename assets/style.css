@@ -263,7 +263,7 @@ header {
 	padding: 7px;
 }
 
-#contact-form{
+#contact-form {
 	margin-bottom: 30px;
 }
 
@@ -271,6 +271,7 @@ header {
 	display: flex;
 	margin-bottom: 30px;
 }
+
 .form-group label {
 	width: 30%;
 }
@@ -304,18 +305,21 @@ form button[type="submit"]:hover {
 	background-color: rgba(67, 67, 146, .7);
 }
 
-.socials{
+.socials {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.social-icon{
+
+.social-icon {
 	text-decoration: none;
 	padding: 0px 10px;
 }
-.social-icon img{
+
+.social-icon img {
 	width: 50px;
 }
+
 /* Footer */
 footer {
 	background-color: red;
@@ -323,25 +327,30 @@ footer {
 	text-align: center;
 }
 
+.not-allowed {
+	cursor: not-allowed;
+}
+
 @media (max-width: 620px) {
-	header{
+	header {
 		justify-content: center;
-	}	
+	}
 }
 
 @media (max-width: 578px) {
 	.row {
 		flex-direction: column;
 	}
+
 	.article-preview {
 		width: 100%;
 		margin-bottom: 30px;
 	}
-	
+
 	.person {
 		width: 100%;
 	}
-	
+
 	.info-box p {
 		width: 80%;
 		margin: auto;
