@@ -1,3 +1,4 @@
+/* Utilities */
 * {
 	margin: 0;
 	padding: 0;
@@ -5,9 +6,39 @@
 	/* border: 1px solid #ccc; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Comfortaa, Arial, Helvetica, sans-serif !important;
+}
+
 body {
 	/* font-size: 16px; */
 	font-family: Helvetica, Arial, sans-serif;
+}
+
+.mt-5 {
+	margin-top: 30px !important;
+}
+
+.m-5 {
+	margin: 25px !important;
+}
+
+.times-new {
+	font-family: 'Times New Roman', Times, serif !important;
+	font-size: 1.2em;
+}
+
+.p-3 {
+	padding: 12px !important;
+}
+
+.p-5 {
+	padding: 20px !important;
 }
 
 .container {
@@ -19,6 +50,7 @@ body {
 .row {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .flex-center-all {
@@ -80,6 +112,11 @@ header {
 
 
 /* Showcase */
+#showcase {
+	background: lightblue url('./images/background.jpg') no-repeat;
+	background-size: cover;
+}
+
 .showcase {
 	min-height: 400px;
 	display: flex;
@@ -92,9 +129,42 @@ header {
 }
 
 .caption p {
-	margin-bottom: 5px;
 	font-size: 1.4em;
+	font-weight: bold;
 }
+
+.caption p:nth-child(1) {
+	font-family: Times, serif;
+}
+
+.caption p:nth-child(2) {
+	font-size: 2em;
+	color: #fff;
+	font-weight: 100;
+}
+
+.caption p:nth-child(3) {
+	font-size: 2.4em;
+	font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+	color: rgb(255, 115, 0);
+	text-shadow: 2px 4px 4px rgb(0, 0, 0);
+}
+
+/* About Me */
+.decorated-paragraph {
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-img {
+	width: 120px;
+}
+
+.about-img img {
+	/* border-radius: 50%; */
+}
+
 
 @media (max-width: 567px) {
 	.row {
