@@ -15,6 +15,10 @@ h6 {
 	font-family: Comfortaa, Arial, Helvetica, sans-serif !important;
 }
 
+.bg-light {
+	background-color: #ffffff;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -97,7 +101,9 @@ img {
 	background: rgb(68, 48, 153);
 	color: #fff;
 }
-
+.pageHeading img{
+	width: 120px;
+}
 header {
 	display: flex;
 	flex-direction: row;
@@ -231,12 +237,20 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 30%;
+	flex-basis: 40%;
 	margin-bottom: 30px;
 }
 
-.person-info {
+.person-info,
+.person-info a {
 	color: #ffffff;
+}
+
+.person-img {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	border: 0;
 }
 
 .person-img img {
@@ -269,11 +283,13 @@ header {
 
 .form-group {
 	display: flex;
+
 	margin-bottom: 30px;
 }
 
 .form-group label {
 	width: 30%;
+	padding: 2px;
 }
 
 .form-group input[type="text"],
@@ -318,6 +334,13 @@ form button[type="submit"]:hover {
 
 .social-icon img {
 	width: 50px;
+}
+
+#mail-report {
+	display: none;
+	padding: 12px 16px;
+	background-color: orange;
+	color: #ffffff;
 }
 
 /* Footer */
